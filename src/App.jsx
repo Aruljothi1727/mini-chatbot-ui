@@ -41,7 +41,7 @@ function App() {
 
     try {
       // Call your backend (replace URL later)
-      const res = await axios.get("http://localhost:8000/chat", {
+      const res = await axios.get(`${import.meta.env.VITE_API_URL}/chat`, {
         params: { query: input },
       });
 
