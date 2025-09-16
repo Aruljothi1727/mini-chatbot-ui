@@ -157,7 +157,7 @@ function App() {
       const formData = new FormData();
       formData.append("file", uploadedFile);
 
-      const response = await fetch(`${import.meta.env.VITE_API_URL}/query`, {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/upload`, {
         method: "POST",
         body: formData
       });
@@ -335,7 +335,7 @@ function App() {
             marginTop: "8px",
             fontWeight: "400"
           }}>
-            AI-Powered Assistant with Document Processing
+            AI-Powered Assistant for OASIS-E Guidance
           </p>
 
           {/* Document Status Indicator */}
@@ -559,7 +559,7 @@ function App() {
           )}
 
           {/* File upload input */}
-          <div style={{ display: "flex", gap: "12px", alignItems: "center", marginBottom: "12px" }}>
+          {/* <div style={{ display: "flex", gap: "12px", alignItems: "center", marginBottom: "12px" }}>
             <input
               type="file"
               ref={fileInputRef}
@@ -602,8 +602,8 @@ function App() {
             <span style={{ fontSize: "12px", color: "#6c757d" }}>
               PDF, DOC, DOCX (max {MAX_FILE_SIZE / (1024 * 1024)}MB)
             </span>
-          </div>
-        </div>
+          </div>*/}
+        </div> 
 
         {/* Input Area */}
         <div style={{
