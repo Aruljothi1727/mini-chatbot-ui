@@ -467,7 +467,7 @@ function App() {
               }}>
                 <div className="loading-spinner"></div>
                 <span style={{ color: "#6c757d", fontSize: "15px" }}>
-                  NeuraChat is {uploadedFile ? 'processing document' : 'thinking'}...
+                  OASIS Co-pilot is {uploadedFile ? 'processing document' : 'thinking'}...
                 </span>
               </div>
             </div>
