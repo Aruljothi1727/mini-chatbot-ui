@@ -326,7 +326,7 @@ function App() {
             WebkitTextFillColor: "transparent",
             textAlign: "center"
           }}>
-            NeuraChat Pro
+           OASIS Co-pilot
           </h1>
           <p style={{
             textAlign: "center",
@@ -388,7 +388,7 @@ function App() {
               fontSize: "16px"
             }}>
               <div style={{ fontSize: "48px", marginBottom: "16px" }}>💬</div>
-              <h3 style={{ margin: "0 0 8px 0", color: "#495057" }}>Welcome to NeuraChat Pro</h3>
+              <h3 style={{ margin: "0 0 8px 0", color: "#495057" }}>Welcome to OASIS Co-pilot</h3>
               {/* <p style={{ margin: 0, fontSize: "14px" }}>
                 Upload a document (PDF, DOC) first, then ask questions about it
               </p> */}
